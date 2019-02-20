@@ -18,7 +18,6 @@ body {
 	float: right;
 	margin-right: 20px;
 	margin-bottom: 20px;
-
 }
 
 input {
@@ -70,6 +69,7 @@ input {
 	margin-top: 100px;
 	border: 5px solid sienna;
 	float: left;
+	position: fixed;
 }
 
 #mc {
