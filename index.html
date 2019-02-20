@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Veli's Trivia Game</title>
+<link href ="assets/css/style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Smythe" rel="stylesheet">
+<script src = "assets/javascript/main.js"></script>
+
+</head>
+
+
+<body>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Who is on the $5 bill?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">Who is the richest person in the world?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Jeff"> Jeff Bezos<br>
+<input type = "radio" id = "mc" name = "question2" value = "Bill"> Bill Gates<br>
+
+<p class = "questions">What is love?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Baby"> Baby don't hurt me...<br>
+<input type = "radio" id = "mc" name = "question3" value = "Less"> Yes less...<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
